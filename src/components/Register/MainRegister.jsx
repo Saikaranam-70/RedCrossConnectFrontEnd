@@ -98,7 +98,7 @@ const MainRegister = () => {
                         className="toggle-password-button" 
                         onClick={togglePassword}
                     >
-                        {showPassword ? "Hide" : "Show"}
+                        {showPassword ? "Show" : "Hide"}
                     </button>
                 </div>
                 <label>Name:</label>
