@@ -65,7 +65,7 @@ const MainRegister = () => {
       };
     
   return (
-    <div className='login password-group' data-aos="fade-left" >
+    <div className='login password-group' data-aos="fade-down" >
     {loading ? (
         <div className="loading-container">
             <div className="spinner"></div>
