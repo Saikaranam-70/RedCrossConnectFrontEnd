@@ -113,11 +113,11 @@ const MainRegister = () => {
             <div className="submitBtn">
                 <button>Sign Up</button>
             </div>
-            <div className="google-signup">
+{/*             <div className="google-signup">
                 <button onClick={handleGoogleSignUp} className="google-button">
                     Sign Up with Google
                 </button>
-            </div>
+            </div> */}
             <p onClick={() => navigate('/login')}>Already have an Account : Sign In</p>
         </form>
     )}
