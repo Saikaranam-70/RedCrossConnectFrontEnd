@@ -1,0 +1,45 @@
+.blood-compatibility {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.blood-compatibility h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #fcfcfc;
+}
+
+.blood-compatibility table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.blood-compatibility th, .blood-compatibility td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.blood-compatibility th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.blood-compatibility td {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .blood-compatibility h2 {
+        font-size: 1.5em;
+    }
+
+    .blood-compatibility th, .blood-compatibility td {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+}

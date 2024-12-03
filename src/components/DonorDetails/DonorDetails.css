@@ -1,0 +1,124 @@
+.donor-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.6s ease;
+    margin-top: 200px;
+  }
+  
+  /* .donor-details-container:hover {
+    transform: perspective(1000px) rotateY(10deg);
+  }
+   */
+  .donor-details-left {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .donor-details-left h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .donor-details-left p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .donor-buttons {
+    margin-top: 20px;
+  }
+  
+  .donor-buttons button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* .donor-buttons button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  } */
+  
+  .donor-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: rotateY(0deg);
+    transition: transform 0.6s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .donor-details-container {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+  
+    .donor-details-left {
+      padding-right: 0;
+    }
+  
+    .donor-image {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .donor-details-left h2 {
+      font-size: 20px;
+    }
+  
+    .donor-details-left p {
+      font-size: 16px;
+    }
+  
+    .donor-buttons button {
+      margin-right: 5px;
+      padding: 8px 10px;
+    }
+  }
+  .a{
+    text-decoration: none;
+    color: white;
+  }
+
+  /* DonorDetails.css */
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full-page height for centering */
+}
+
+.spinner div {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db; /* Change color here */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
